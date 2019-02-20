@@ -4,7 +4,7 @@ const { errorMessage } = require('./error-message');
 const readDir = require('./read-dir');
 
 const scanDir = (output, input, config) => {
-  fs.mkdir(path.join('../../', output), err => {
+  fs.mkdir(path.join(path.dirname(process.env.START_DEFAULT_DIR), output), err => {
     if (err) {
       return errorMessage(err);
     }

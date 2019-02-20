@@ -1,21 +1,26 @@
-# webpack-starter-config
+# sort-file
 
-Simple webpack configuration with babel, sass and webpack-dev-server.
+Simple easy file sorting
 
 Js and css will minify in production mode.
 
-## Development mode
+## Run
 
 ```
 npm start
 ```
 
-In this mode *.css and *.js will  remove from /public folder.
+In this mode the source folder will be sorted,
+all files will be moved to the final folder,
+folders are created in alphabetical order,
+the first letter of the file is the same as the folder name
 
-## Production mode
+## Options
+you can specify on the command line
+the path to the source and final folder,
+flag to delete the source folder [true/false]
 
-```
-npm run build
-```
-
-Assets (*.css and *.js) will save in /public folder.
+###default options:
+**source folder:** any-dir
+**final folder:** dist + random number
+**flag:** false

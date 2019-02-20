@@ -19,6 +19,9 @@ you can specify on the command line
 2. flag to delete the source folder [true/false]
 
 <h2>default options:</h2>
-1. **source folder:** any-dir
-2. **final folder:** dist + random number
-3. **flag:** false
+
+source folder: any-dir
+***
+final folder: dist + random number
+***
+flag: false

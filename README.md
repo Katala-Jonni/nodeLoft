@@ -20,8 +20,6 @@ you can specify on the command line
 
 <h2>default options:</h2>
 
-source folder: any-dir
-***
-final folder: dist + random number
-***
-flag: false
+1. source folder: any-dir
+2. final folder: dist + random number
+3. flag: false

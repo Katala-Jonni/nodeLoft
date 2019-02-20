@@ -2,8 +2,6 @@
 
 Simple easy file sorting
 
-Js and css will minify in production mode.
-
 ## Run
 
 ```
@@ -17,10 +15,10 @@ the first letter of the file is the same as the folder name
 
 ## Options
 you can specify on the command line
-the path to the source and final folder,
-flag to delete the source folder [true/false]
+1. the path to the source and final folder,
+2. flag to delete the source folder [true/false]
 
-###default options:
-**source folder:** any-dir
-**final folder:** dist + random number
-**flag:** false
+<h2>default options:</h2>
+1. **source folder:** any-dir
+2. **final folder:** dist + random number
+3. **flag:** false
